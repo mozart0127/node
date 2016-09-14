@@ -6,7 +6,7 @@ var url = require('url');
 // Create a server
 http.createServer( function (request, response) {
     // Parse the request containing file name
-    var pathname = url.parse(request.url).pathname;
+    var pathname = "/index.html"
 
     // Print the name of the file for which request is made.
     console.log("Request for " + pathname + " received.");
